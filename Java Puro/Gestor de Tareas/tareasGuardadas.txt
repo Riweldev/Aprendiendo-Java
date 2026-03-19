@@ -1,0 +1,3 @@
+1,Dormir,true
+2,Correr,true
+3,Ir al colegio,true
