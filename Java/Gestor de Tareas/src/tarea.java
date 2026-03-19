@@ -1,19 +1,15 @@
 public class tarea {
     int index;
     String tarea;
-    String completado;
+    boolean completado;
 
-    public tarea(String e,int i) {
+    public tarea(int i,String e,boolean b) {
         tarea = e;
         index = i;
-        completado = "[] "+e;
-    }
-    
-    public void completar(){
-        completado="[X]"+tarea;
+        completado = b;
     }
 
-    public void mostrar(){
-        System.out.println(index+". "+completado);
+    public void completar(){
+        completado=true;
     }
 }
